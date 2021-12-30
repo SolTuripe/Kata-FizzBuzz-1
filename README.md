@@ -7,18 +7,16 @@
 
 ## Install
 
-- composer install
+- `Composer install`
 
 ## Run Tests
+- `vendor/bin/phpunit`
 
-- vendor/bin/phpunit
+## Rules
 
-### Escribe un programa que imprima los números del 1 al 100:
+FizzBuzz is a function that takes a number as an argument and then returns the number. However:
 
-Aplica las siguientes normas:
-
-- Devuelve Fizz si el número es divisible por 3.
-- Devuelve Buzz si el número es divisible por 5.
-- Devuelve FizzBuzz si el número es divisible por 3 y por 5.
-- Devuelve el mismo número si no se cumple nada de lo anterior.
+- For multiples of 3 return "Fizz" instead of the number
+- For multiples of 5 return "Buzz" instead of the number
+- For multiples of 3 & 5 return "FizzBuzz"
 
