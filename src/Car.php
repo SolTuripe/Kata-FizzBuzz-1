@@ -10,11 +10,10 @@ class Car {
         $this->color = $color;
     }
     
-
     public function getWheels(){
         return $this->wheels;
     }
-
+    
     public function getColor() {
         return $this->color;
     }
